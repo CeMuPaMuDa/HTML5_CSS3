@@ -6,17 +6,21 @@ body {
   margin: 0;
   font-family: Arial;
 }
-
+.container {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1272px;
+}
 .main {
 }
 .product {
   background: #445161;
   color: white;
+}
+.product-blocks {
   display: flex;
   justify-content: space-between;
-  padding: 25px 50px 19px;
-}
-.product-text-block {
+  padding: 25px 0 19px;
 }
 .produch-title {
   font-style: normal;
