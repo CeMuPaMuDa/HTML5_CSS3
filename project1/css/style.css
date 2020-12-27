@@ -8,8 +8,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  padding: 0 50px;
-  max-width: 1272px;
+  outline: 1px solid red;
 }
 .main {
 }
@@ -20,7 +19,7 @@ body {
 .product-blocks {
   display: flex;
   justify-content: space-between;
-  padding: 25px 0 19px;
+  padding: 25px 50px 19px;
 }
 .produch-title {
   font-style: normal;
