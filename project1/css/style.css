@@ -6,55 +6,78 @@ body {
   margin: 0;
   font-family: Arial;
 }
-.container {
-  margin: 0 auto;
-  outline: 1px solid red;
-}
+
 .main {
 }
 .product {
   background: #445161;
   color: white;
-}
-.product-blocks {
   display: flex;
   justify-content: space-between;
   padding: 25px calc(50% - 1272px / 2) 19px;
 }
-
+.product-text-block {
+}
 .produch-title {
-  font-style: normal;
-  font-weight: normal;
   font-size: 60px;
   line-height: 69px;
   margin-bottom: 40px;
+  font-style: normal;
+  font-weight: normal;
 }
 .product-list {
-  list-style-image: url(../img/OK.svg);
+  list-style-type: none;
 }
 .product-list-item {
   margin-bottom: 10px;
 }
-
+.product-list-image {
+  margin-right: 5px;
+}
 .product-image-block {
 }
 .product-image {
+  width: 472px;
+  height: 217px;
 }
 .about {
+  padding: 45px calc(50% - 1272px / 2) 50px;
+  display: flex;
+  justify-content: space-between;
 }
 .about-text-block {
 }
 .about-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  margin-bottom: 17px;
+  font-style: normal;
+  font-weight: normal;
 }
 .about-paragraph {
+  width: 646px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 11px;
 }
 .about-image-block {
 }
 .about-image {
 }
 .pluses {
+  padding: 25px calc(50% - 1272px / 2) 19px;
 }
 .pluses-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #445161;
+  font-style: normal;
+  font-weight: normal;
 }
 .pluses-list {
 }
@@ -63,6 +86,7 @@ body {
 .pluses-list-image {
 }
 .screen {
+  padding: 25px calc(50% - 1272px / 2) 19px;
 }
 .screen-cards {
 }
@@ -75,6 +99,7 @@ body {
 .screen-card-paragraph {
 }
 .reviews {
+  padding: 25px calc(50% - 1272px / 2) 19px;
 }
 .reviews-title {
 }
@@ -87,6 +112,7 @@ body {
 .reviews-author {
 }
 .buy {
+  padding: 25px calc(50% - 1272px / 2) 19px;
 }
 .buy-title {
 }
@@ -107,7 +133,9 @@ body {
 .buy-card-lux {
 }
 .contacts {
+  padding: 25px calc(50% - 1272px / 2) 19px;
 }
+
 .contacts-title {
 }
 .contacts-form-block {
@@ -137,4 +165,5 @@ body {
 .contacts-social-link-item {
 }
 .footer {
+  padding: 25px calc(50% - 1272px / 2) 19px;
 }
