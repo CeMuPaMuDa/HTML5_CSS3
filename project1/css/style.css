@@ -69,7 +69,7 @@ body {
 .about-image {
 }
 .pluses {
-  padding: 25px calc(50% - 1272px / 2) 19px;
+  padding: 25px calc(50% - 1272px / 2) 48px;
   background: #f5f5f5;
 }
 .pluses-title {
@@ -97,18 +97,53 @@ body {
   height: 35px;
   margin-right: 8px;
 }
+.pluses-list-paragraph {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
 .screen {
-  padding: 25px calc(50% - 1272px / 2) 19px;
+  padding: 25px calc(50% - 1272px / 2) 51px;
+}
+.screen-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  text-align: center;
+  margin-bottom: 45px;
 }
 .screen-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .screen-card {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
 }
 .screen-image {
+  width: 202px;
+  height: 153px;
+  margin-right: 14px;
 }
 .screen-card-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #445161;
+  margin-bottom: 13px;
 }
 .screen-card-paragraph {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
 }
 .reviews {
   padding: 25px calc(50% - 1272px / 2) 19px;
