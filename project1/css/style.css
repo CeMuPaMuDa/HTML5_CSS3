@@ -70,6 +70,7 @@ body {
 }
 .pluses {
   padding: 25px calc(50% - 1272px / 2) 19px;
+  background: #f5f5f5;
 }
 .pluses-title {
   font-size: 30px;
@@ -78,12 +79,23 @@ body {
   color: #445161;
   font-style: normal;
   font-weight: normal;
+  margin-bottom: 22px;
 }
 .pluses-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .pluses-list-item {
+  width: 49%;
+  margin-bottom: 26px;
+  display: flex;
 }
 .pluses-list-image {
+  width: 34px;
+  height: 35px;
+  margin-right: 8px;
 }
 .screen {
   padding: 25px calc(50% - 1272px / 2) 19px;
