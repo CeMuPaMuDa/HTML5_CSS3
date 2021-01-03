@@ -201,25 +201,84 @@ body {
   color: #989898;
 }
 .buy {
-  padding: 25px calc(50% - 1272px / 2) 19px;
+  padding: 45px calc(50% - 1272px / 2) 50px;
 }
 .buy-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  margin-bottom: 26px;
 }
 .buy-cards {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .buy-card-standart {
+  margin-right: 45px;
+  border-radius: 5px;
+  background: #445162;
+  padding: 14px 0 0;
+  width: 300px;
 }
 .buy-card-title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 7px;
 }
 .buy-price {
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 30px;
+  color: #445162;
+  background: #ffffff;
+  border: 2px solid #445162;
+  text-align: center;
+  padding: 25px 0 16px;
 }
 .buy-list {
+  margin-left: 40px;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 7px;
 }
 .buy-list-item {
 }
 .buy-card-premium {
+  margin-right: 45px;
+  border-radius: 5px;
+  background: #445162;
+  padding: 14px 0 0;
+  width: 300px;
 }
 .buy-card-lux {
+  border-radius: 5px;
+  background: #445162;
+  padding: 14px 0 0;
+  width: 300px;
+}
+.buy-link {
+  text-decoration: none;
+  background: #ffffff;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 19px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 5px;
+  padding-top: 16px;
+  padding-bottom: 9px;
 }
 .contacts {
   padding: 25px calc(50% - 1272px / 2) 19px;
