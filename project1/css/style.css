@@ -286,7 +286,6 @@ body {
   color: #ffffff;
   text-align: center;
   margin-bottom: 43px;
-  margin-top: 25px;
 }
 .contacts-flex-block {
   display: flex;
@@ -315,10 +314,10 @@ body {
   max-width: 503px;
   margin-bottom: 19px;
   border-radius: 5px;
+  font-family: inherit;
 }
 
 ::placeholder {
-  font-family: Arial;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -350,12 +349,16 @@ body {
 .contacts-social-list-item {
   margin-bottom: 20px;
 }
+
 .contacts-social-link {
   list-style-type: none;
   display: flex;
 }
 .contacts-social-link-item {
   margin-right: 8px;
+}
+.contacts-social-list-img {
+  margin-right: 10px;
 }
 .footer {
   padding: 25px calc(50% - 1272px / 2) 19px;
