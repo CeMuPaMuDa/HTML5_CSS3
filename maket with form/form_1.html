@@ -2,18 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
   <title>Form 1</title>
 </head>
 
-<body>
-  <main class="first">
+<body class="first">
+  <main>
     <form class="first-form" action="#">
-      <input class="first-form-input" type="text" placeholder="Логин">
-      <input class="first-form-input" type="password" placeholder="Пароль">
-      <input class="first-form-button" type="submit" value="Войти">
+      <div class="first-form-input-block">
+        <input class="first-form-input" type="text" placeholder="Логин" minlength="4" />
+        <input class="first-form-input" type="password" placeholder="Пароль" minlength="8" />
+      </div>
+      <div>
+        <input class="first-form-button" type="submit" value="Войти" />
+      </div>
     </form>
   </main>
 </body>
