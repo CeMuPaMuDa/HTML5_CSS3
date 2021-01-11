@@ -34,7 +34,7 @@ body {
 
 /* First form style */
 .first {
-  background-image: url(../img/bg_first_form.png);
+  background-color: #ecece6;
   height: 100vh;
 }
 .first-form {
@@ -77,18 +77,64 @@ body {
 }
 /* Second form style */
 .second {
+  background-color: #d4d4d4;
+  height: 100vh;
 }
 .second-form {
+  background-image: url(../img/second-form.svg);
+  background-repeat: round;
+  margin: 250px auto;
+  padding: 30px 40px;
+  width: 326px;
+  height: 291px;
+  position: relative;
+}
+.secong-bg {
+  position: absolute;
+  left: 40px;
+  top: 14px;
+  height: 321px;
+  width: 326px;
 }
 .second-header-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 62px;
 }
 .second-header-title {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
 }
 .second-header-close {
 }
 .second-form-input-block {
+  margin-bottom: 27px;
 }
 .second-form-input {
+  background: #ffffff;
+  border: 1px solid #7f7f7f;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  line-height: 17px;
+  color: #9f9f9f;
+
+  opacity: 0.99;
+}
+.second-form-input:first-child {
+  margin-bottom: 11px;
 }
 .second-form-button {
+  background: linear-gradient(180deg, #e1e1e1 0%, #c3c3c3 79.17%, #d2d2d2 100%);
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3e3e3e;
+  padding: 8px 35px;
+  display: block;
+  margin: 0 auto;
 }
