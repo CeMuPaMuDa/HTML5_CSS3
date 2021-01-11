@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Form 2</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Form 2</title>
-</head>
-
-<body>
-  <main>
-    <form action="#">
-      <input type="text" placeholder="Логин">
-      <input type="password" placeholder="Пароль">
-      <input type="submit" value="Войти">
-    </form>
-  </main>
-</body>
-
+  <body class="second">
+    <main>
+      <form class="second-form" action="#">
+        <div class="second-header-block">
+          <h1 class="second-header-title"></h1>
+          <img class="second-header-close" src="" alt="Close button" />
+        </div>
+        <div class="second-form-input-block">
+          <input
+            class="second-form-input"
+            type="text"
+            placeholder="Логин"
+            minlength="4"
+          />
+          <input
+            class="second-form-input"
+            type="password"
+            placeholder="Пароль"
+            minlength="8"
+          />
+        </div>
+        <div>
+          <input class="second-form-button" type="submit" value="Войти" />
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
